@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <style>
+         .alerta-danger {
+          color: red;
+        }
+        
+      </style>
+</head>
+
+<body id="pagina">
+<h1>CÁLCULO DO IMC</h1>
+    <form id="IMC">
+        <label for="peso">PESO:</label>
+        <input type="number" id="peso" name="peso"> 
+        <p class="alerta-peso"></p>
+  
+        <br><br>
+        <label for="altura">ALTURA:</label>
+        <input type="number" id="altura" name="altura"> 
+        <p class="alerta-altura"></p>
+    
+        <br><br>
+      </form>
+    
+    <input type="button" id="btnCalcular" value="CALCULAR">
+    <hr>
+
+    <TextArea id="retorno" cols="40" rows="2">Resultado</TextArea>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
