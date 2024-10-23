@@ -1,0 +1,729 @@
+html{background-color: lightgray;}
+body{background-color: rgb(255, 245, 232);border: solid 0px black; font-size-adjust: 100%}
+body {width: 1000px; margin: 0px auto 0px auto;}
+figure {margin: 0px;}
+
+h1, h2, h3 {font-family: "Ubuntu", sans-serif;}
+.oi {font-family: "Ubuntu", sans-serif;}
+
+/*footer geral*/
+.centro {text-align: center;
+    background-color: #400B15;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;}
+.coluna6 {display: flex;
+     flex-direction: row;
+     margin-top:25px;}
+.coluna7 {display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-left:180px;}
+form {box-shadow: 10px;
+ width: 320px;}
+.emargem {margin-left: 20px;}
+.amargem {margin-left: 25px;
+     margin-right: 20px;}
+.omargem {margin-left: 20px;
+     margin-right: 38px}
+/* nav geral*/
+ul, li {display: flex;
+   justify-content: center;
+   text-decoration: none;
+   clear: both; 
+   font-weight: bold;
+   color: rgb(139, 0, 12);}
+ul {padding-inline-start: 0px;}
+.oi:link, .oi:visited {background-color: #BF0426;
+                  color: white;
+                  padding: 14px 25px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  border-radius: 8px;
+                  margin: 5px;}
+.oi:hover, .oi:active {background-color: red;}     
+a {text-decoration: none;
+   color: #BF0426;}
+.centropagina {text-align: center;
+	clear: both; 
+	font-weight: bold;}
+/* barra de navegação personagens geral*/
+.coluna5 {display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 80px;}
+.centrotexto2 {text-align: center; 
+   margin: 10px;}
+/*cor dos links no texto*/
+.vermelho {color: #BF0426;}
+
+
+/*-------------------------------Abner----------------------------------------------*/
+/* Incio da edição pagina Autor */
+
+/* altera o texto do titulo */
+.x2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Altera a Caixa de texto inteira do titulo */
+.x3 {
+    background-color: #BF0426;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-style:initial;
+    position: relative;
+    left: 15px;
+    width: 300px;
+    color: white;
+}
+
+/* altera todo conteudo principal */
+.x1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/* o x4 alinha o texto e a imagem na mesma linha*/
+.x4 {
+    display:flex;
+}
+
+/* o x6 alinha o texto em coluna*/
+/* controla a caixa de bibliografia e imagem da autora */
+.x6 {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    font-size: 0.9em;
+    padding: 0.5px;
+    margin-left: 20px;
+    border: 1px solid;
+    padding: 5px;
+    border-style: groove gray;
+}
+/* Altera o Primeiro e segundo paragrafo do texto */
+.x5 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin: 0px auto;
+}
+
+/*Essa parte coloca o texto embaixo da imagem*/
+.bibliografia{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 2px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.bibliografia1 {
+    display: flex;
+    margin-top: auto;
+}
+
+/* altera a imagem no meio do texto */
+.x7{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* altera a ultima imagem do texto */
+.x8{
+    display: block;
+    margin: 0px auto;
+
+}
+
+/* Fim edição pagina Autor */
+
+
+/* Inicio da edição da pagina livro */
+
+/* Altera todo titulo da pagina */
+.y2 {
+    background-color: #BF0426;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-style:initial;
+    position: relative;
+    left: 15px;
+    width: 300px;
+    color: white;
+}
+
+/* Altera todo o quadro do subtitulo da pagina */
+.y5{
+    background-color: #BF0426;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-style:initial;
+    position: relative;
+    left: 15px;
+    width: 350px;
+    height: 30px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Altera o texto do subtitulo da pagina */
+.y6{
+    margin-top: 5px;
+} 
+
+ figure{
+    margin: 0px;
+ }
+
+ /* Altera todo o texto principal do site */
+.y1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/* O y3 matem a imagem e o primeiro e segundo paragrafo na mesma linha */
+.y3{
+    display: flex;
+}
+
+/* Altera a primeira imgem do texto */
+.y4 {
+    margin-right: 20px;
+}
+
+/* Fim da edição pagina Livro */
+
+/* Inicio da edição pagina Funsões do Estado */
+
+
+ /* caixas de titulos em cima das caixas de texto */
+ .z4{
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    font-size: 0.9em;
+    border: 2px solid;
+    text-align: center;
+    background-color: #BF0426;
+    color: white;
+ }
+
+/* Altera todo o conteudo principal */
+.z1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+} 
+
+/* Caixa Base dos textos e imagens */
+.z6{
+    display: flex;
+    border: 2px solid;
+    margin-top: 15px;
+    background-color: #400B15;
+}
+
+/* Altera a caida de texto dentro da section z6 */
+.z7 { 
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    background-color:#F0E4DD;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+/* Titulo dentro do texto */
+.z8{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -25px;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.z9{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Titulo da Página */
+.z2{
+    display: flex;
+    justify-content: center;
+}
+
+/* caixa de Texto do Titulo da Página */
+.z3{
+    display: flex;
+    width: 250px;
+    height: 30px;
+    border: 2px solid;
+    background-color: #BF0426;
+    justify-content: center;
+    margin: auto;
+    color: white;
+}
+
+/* coloca uma distancia das imagens para o quadro */
+.imagem {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Altera a posição do titulo dos quadros */
+.z5 {
+    position: relative;
+    bottom: 16px;
+}
+
+/* Fim edição pagina Funções do Estado */
+
+/*-------------------------------Cristiane-------------------------------------------*/
+/*-----Graphic-----*/
+.novel {background-color:   rgb(255, 245, 232);
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        flex-direction: row-reverse;}
+
+.novel1 {background-color:   rgb(255, 245, 232);
+         margin: 25px;
+         width: 300px;
+         text-align: center;
+         position: relative;}
+
+.novel2 {background-color:   rgb(255, 245, 232);
+         width: 600px;   
+         margin: 25px;
+         margin-top: 0px;}
+
+.imagnovel {background-color:   rgb(255, 245, 232);
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            flex-direction: row;
+            justify-content: center;}
+
+.imagnovel1{background-color: rgb(255, 245, 232);
+            width: 300px;
+            height: 250px;
+            margin: 10px;
+            text-align: center;}
+                
+.imagnovel2 {background-color:  rgb(255, 245, 232);
+            width: 300px;
+            height: 250px;    
+            margin: 10px;
+            text-align: center;}
+
+.imagnovel3 {background-color:  rgb(255, 245, 232);
+            width: 300px;
+            height: 250px;    
+            margin: 10px;
+            text-align: center;}
+
+.boxnovel {background-color:   rgb(255, 245, 232);
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            flex-direction: row;}
+
+.boxnovel1{background-color:   rgb(255, 245, 232);
+            margin: 25px;   
+            width: 400px;}
+                        
+.boxnovel2 {background-color:   rgb(255, 245, 232);
+            margin: 5px;    
+            width: 500px;}
+
+.capasnovel {margin-top: 30px;}
+/*-----Fred-----*/
+.letragrande {text-transform: uppercase; 
+              font-weight: normal;}
+
+.tituloh1 {text-transform: uppercase; 
+            font-weight: normal; 
+            font-weight: bold; 
+            font-size: 20}
+
+.centropagina {text-align: center;clear: both; font-weight: bold;}
+
+.espaco {margin-bottom: 50px;}
+
+
+/*Quadrado do lado direito*/
+.textodireito {width:270px; 
+                margin-top:0px; 
+                float:right;
+                margin-left: 5px;
+                margin-bottom: 15px;
+                margin-right: 25px;
+                margin-top: 10px;}
+
+/*texto do lado do quadrado*/
+.textoesquerdo {width: 670px; 
+                margin-top: 0px;  
+                float:left; 
+                margin-left: 25px;
+                margin-bottom: 0px;
+                margin-right: 5px;
+                margin-top: 10px;}
+    
+/*Os outros textos*/
+.texto02 {margin-left: 25px; 
+        margin-right: 25px;
+        margin-top: 20px;}
+
+.texto3 {line-height: 0em;
+         text-indent: 0em;}
+
+.texto4 {line-height: 1.9em;                   
+         text-align: left;
+         margin-left: 5px;}
+
+.texto5 {margin-left: 10px; 
+         margin-right: 0px;
+         margin-top: 10px;}
+
+.texto6 {margin-left: 10px; 
+         margin-right: 10px;
+         margin-top: 10px;           
+         text-align: center;}
+
+   
+
+/*as 03 tabelas no centro da pagina*/
+td, table, th {border: solid 1px black;border-spacing: 0;
+                width: 200px;}
+
+/*colocando a imagem no centro*/
+.centro {align-items: center;}
+
+/*tamanho da tabela*/
+.tamanhotabelaF {height: 150px; vertical-align: top; line-height: 0.9;
+                padding: 5px;}
+.tamanhotabelaF2 {height: 150px; vertical-align: top; line-height: 0.9;
+                padding: 5px;}
+
+/*posicionamento das tabelas*/
+.tabela01 {display: inline-block;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-bottom: 10px;
+            margin-top: 20px;}
+                    
+.tabela02 {margin-left: 120px;}
+.tabela03 {margin-right: 120px;}
+
+.cores {background-color: rgb(196, 102, 102);}
+
+.margem {margin: 5px;
+        padding: 5px;}
+/*-----Filme-----*/
+/* ajuste imagem e texto página filme */
+
+.filme {background-color:  rgb(255, 245, 232);
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        flex-direction: row;}
+
+.filme1 {background-color: rgb(255, 245, 232);
+        margin: auto;
+        margin-top: 20px;
+        width: 300px;
+        text-align: center;
+        position:relative;}
+
+.filme2 {background-color:  rgb(255, 245, 232);
+        width: 600px;
+        margin: auto;
+        line-height: 1.5em;
+        text-indent: 1em;}
+
+/* espaçamento entre imagens */
+.imagkate {margin-top: 30px;}
+
+/*-------------------------------Gabriel--------------------------------------------*/
+/*-----Home-----*/
+.figure {display: flex;
+    justify-content: center;
+    display: inline;
+}
+
+.batata {display: flex;
+    justify-content: center;
+}
+
+
+.fotodaautora {display: flex;
+               flex-direction: row;
+               justify-content: center;}
+
+.autora {margin-top: 60px;}
+
+.aside {margin-top: 50px;}
+
+.serie {display: block;
+   margin: 0px auto;
+   
+}
+
+.caption {display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto01 {margin-bottom: 50px;}
+
+/*Os textos*/
+.texto01 {margin-left: 25px; 
+    margin-right: 25px;
+    margin-top: 20px;}
+
+.texto1 {line-height: 1.5em;
+  text-indent: 1em;}
+
+
+/*-----Nick e Serena-----*/
+/*Formatação dos textos*/
+.letragrande {text-transform: uppercase; 
+    font-weight: normal;}
+.tituloh1 {text-transform: uppercase; 
+    font-weight: normal; 
+    font-weight: bold; 
+    font-size: 20}
+.centropagina {text-align: center;clear: both; font-weight: bold;}
+.espaco {margin-bottom: 50px;}
+
+
+/*Quadrado do lado direito*/
+.textodireito {width:270px; 
+    height: 410px;
+    margin-top:0px; 
+    float:right;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+/*texto do lado do quadrado*/
+.textoesquerdo {width: 670px; 
+    margin-top: 0px;  
+    float:left; 
+    margin-left: 25px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    margin-top: 10px;}
+    
+/*Os outros textos*/
+.texto02 {margin-left: 25px; 
+          margin-right: 25px;
+          margin-top: 25px;
+          }
+
+.texto3 {line-height: 1.5em;
+        text-indent: 1em;}
+
+.texto4 {line-height: 0.9em;
+         text-indent: 0.4em;}
+
+.texto5 {line-height: 1.3em;}
+
+.Atualizado {
+    margin-left: 25px; 
+          margin-right: 25px;
+          margin-top: 20px;
+}
+   
+
+/*as 03 tabelas no centro da pagina*/
+td, table, th {border: solid 1px black;border-spacing: 0;
+              width: 200px;}
+
+/*colocando a imagem no centro*/
+.centro {align-items: center;}
+
+/*tamanho da tabela*/
+.tamanhotabela {height: 302px; vertical-align: top; line-height: 0.9;
+                padding: 5px;}
+.tamanhotabela2 {height: 302px; vertical-align: top; line-height: 0.9;
+                 padding: 5px;}
+
+/*posicionamento das tabelas*/
+.tabela01 {display: inline-block;
+           margin-left: 25px;
+           margin-right: 25px;
+           margin-bottom: 10px;
+           margin-top: 10px;}
+.tabela02 {margin-left: 120px;}
+.tabela03 {margin-right: 120px;}
+
+.cores {background-color: rgb(196, 102, 102);}
+.margem {margin: 5px;
+        padding: 5px;}
+
+
+/*-----Sobre-----*/
+/* h1 */
+.h1 {display: flex;
+    justify-content: center;
+}
+.fig {text-align: center;
+      margin: 25px;}
+
+.sec {display: flex;}
+
+.fig2 {display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.esquerda {display: flex;
+    flex-direction: row-reverse;
+}
+
+.art {display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Os textos*/
+.sobre {margin-left: 25px; 
+    margin-right: 25px;
+    margin-top: 20px;}
+
+.sobre {line-height: 1.5em;
+  text-indent: 1em;}
+
+/*-------------------------------Jackeline------------------------------------------*/
+/*----série----*/
+/* formatação dos textos */
+.letragrande {text-transform: uppercase; 
+	font-weight: normal;}
+.gojy {text-transform: uppercase; 
+	font-weight: normal; 
+	font-weight: bold; 
+	font-size: 25px;}
+.centropagina {text-align: center;
+	clear: both; 
+	font-weight: bold;}
+p {line-height: 1.5em;
+	text-indent: 1em;} /* COLOCA COMO CLASSE AQUI*/
+.texto3 {line-height: 1.5em;
+	     text-indent: 1em;}
+
+/* posicionando as paginas */
+.morango {display: flex;
+          flex-direction: column;
+          margin: 20px;}
+.amora {display: flex;
+          flex-direction: row-reverse;}
+.groselha {display: flex;
+          flex-direction: column;
+          margin-left: 5px;}
+.melancia {display: flex;
+          flex-direction: row;
+          justify-content: space-around;}
+.maca {text-align: center;
+	         margin-bottom: 10px;}
+.framboesa {margin-left: 15px;}
+
+/*----offred----*/
+/*Quadrado do lado direito*/
+.textodireito {width:270px; 
+	margin-top:0px; 
+	float:right;
+    margin-left: 5px;
+	margin-bottom: 15px;
+	margin-right: 25px;
+    margin-top: 10px;}
+
+/*texto do lado do quadrado*/
+.textoesquerdo {width: 670px; 
+	margin-top: 0px;  
+	float:left; 
+    margin-left: 25px;
+	margin-bottom: 0px;
+	margin-right: 5px;
+    margin-top: 10px;}
+
+/*Os outros textos*/
+.mirtilo {margin-left: 25px; 
+    margin-right: 25px;
+    margin-top: 20px;}
+.uva {line-height: 1.5em;
+  text-indent: 1em;}
+.acai {line-height: 0.9em;
+   text-indent: 0.4em;}
+.jabuticaba {line-height: 1.3em;}
+.jambu {margin-left: 25px;}
+
+/*as 03 tabelas no centro da pagina*/
+td, table, th {border: solid 1px black;border-spacing: 0;
+    width: 200px;}
+
+/*colocando a imagem no centro*/
+.centro {align-items: center;
+margin: 0px;}
+
+/*tamanho da tabela*/
+.tamanho01 {height: 228px; vertical-align: top; line-height: 0.9;
+      padding: 5px;}
+.tamanho02 {height: 258px; vertical-align: top; line-height: 0.9;
+       padding: 5px;}
+
+/*posicionamento das tabelas*/
+.tabela01 {display: inline-block;
+ margin-left: 25px;
+ margin-right: 25px;
+ margin-bottom: 10px;
+ margin-top: 10px;}
+.tabela02 {margin-left: 120px;}
+.tabela03 {margin-right: 120px;}
+.cores {background-color: rgb(196, 102, 102);}
+.margem {padding: 5px;}
+
+
+/*----curiosidades----*/
+/* formatação de texto*/
+.letragrande {text-transform: uppercase; 
+	font-weight: normal;}
+.melao {text-transform: uppercase; 
+	font-weight: normal; 
+	font-weight: bold; 
+	font-size: 20;}
+.italico {font-style: italic;}
+
+/* posicionamento conteudo */
+.banana {margin-left: 25px;
+	    margin-bottom: 10px;
+	    margin-right: 25px;
+        margin-top: 10px;}
+
+/* Posicionamento imagens*/
+.duascolunas {display: flex;
+             flex-direction: row;
+			 justify-content: space-around;}
