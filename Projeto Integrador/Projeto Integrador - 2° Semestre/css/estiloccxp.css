@@ -1,0 +1,169 @@
+/* CSS por Gabriel Vilanova*/
+
+
+.margembaixo {
+    padding-bottom: 50px;
+}
+
+
+
+/* deixa um elemento redondo */
+
+.novidades {
+    border-radius: 150px;
+}
+
+/* espaçamento da margem superior do article */
+ 
+.article {
+    margin-top: 52px;
+}
+
+@media screen and (max-width: 767px) {
+    .article {
+        margin-top: 12px;
+    }
+    .ccxp, .img {
+        display: flex;
+        justify-content: center;
+        text-align: center  ;
+        /* position: relative;
+        right: 2.5px; */
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ccxp, .img {
+        display: flex;
+        justify-content: center;
+        text-align: center  ;
+        /* position: relative;
+        right: 2.5px; */
+    }
+}
+/* espaçamento das figures */
+
+.imagem, .novidades {
+    margin-top: 25px;
+}
+
+.figcaption {
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+    .figcaption {
+        position: relative;
+        right: -60px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .figcaption {
+        position: relative;
+        right: -35px;
+    }
+}
+
+.pmargem {
+    padding-bottom: 73px;
+}
+
+.pmargem2 {
+    padding-bottom: 24px;
+}
+
+/* alinhamento do texto */
+
+.p {
+    text-align: justify;
+}
+
+/* página artistas ccxp */
+
+.margem, .h1 {
+  margin-top: 450px;
+  padding-top: 15px;
+}
+
+
+/* adiciona bordas em volta do elemento*/
+.bloco {
+    margin-bottom: 15px;
+    border-style: ridge;   
+    border: 2px solid #8A2BE2; 
+    border-radius: 10px; 
+    padding: 0px;
+}
+
+img {  display: block;
+    margin: 5px auto;
+    text-align: center;
+   }
+
+   
+
+
+/* CSS por Cristiane */
+
+/* Cosplay */
+
+   /* margem article */
+.margemcosplay {margin-top:52px;}
+   /* margem do título */
+.titulo {text-align: center;}
+   /* margem e borda dos elementos */
+.galeria {margin-bottom: 10px;
+          padding: 0px ;
+          border: 2px solid #8A2BE2; 
+          border-radius: 10px; }
+    /* formatação dos textos */
+article .textocosplay { margin: 15px 0px 0px 0px;
+                        padding-left: 0px;
+                        font-size: 14px;}
+h6 {text-decoration: underline;
+    text-decoration-color: #8A2BE2;}
+.imgcosplay { width: 220px;
+                height: 300px;}
+
+
+/* Esportes */
+
+    /* margem article */
+.margemesports {margin-top:52px;}
+    /* margem do título */
+.titulo {text-align: center;}
+    /* formatação da imagem */
+img {margin: 0px;
+    display: block;
+    text-align: center;}
+    /* formatação dos blocos */
+.caixaesports {margin-bottom: 10px;
+        padding: 0px ;
+        border: 2px solid #8A2BE2; 
+        border-radius: 10px; 
+        height: 350px;}
+    /* formatação da imagem */
+.gameccxp {margin-top: 30px;
+            margin-left: 15px;}
+    /* formatação dos textos */
+.textoccxp {margin-top: 20px;}
+
+
+/* Entrevistas */
+
+.margementevista {margin-top:52px;}
+
+.titulo {text-align: center;}
+
+img {  display: block;
+    margin: 5px auto;
+    text-align: center;
+   }
+
+.blocoentrevista {  margin-bottom: 10px;
+                    padding: 0px ;
+                    border: 2px solid #8A2BE2; 
+                    border-radius: 10px; 
+                    text-align: center;}

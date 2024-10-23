@@ -1,0 +1,60 @@
+/* Nav */
+nav { margin:0px; }
+ul li {display: inline; 
+      list-style-type:none;  
+      font-size: 1.1em; 
+      margin: 0px;
+      text-decoration: none;
+     }
+
+ul li a {text-decoration: none;
+         margin-right: 20px;}
+
+/* Design Pag */
+
+.titulo {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.elemento {
+    background-color: rgb(251, 251, 251);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.texto {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.textoin{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+article {margin-top: 25px;}
+
+.imagem {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.acao{
+    text-align: center;
+    margin: 10px;
+}
+
+.imagem2{
+    width: 100%;
+    text-align: center;
+}
+
+article {
+    margin-top: 70px;
+}
+
+.texto1 {
+    margin-bottom: 50px;
+}    

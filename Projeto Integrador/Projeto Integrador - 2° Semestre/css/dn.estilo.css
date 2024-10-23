@@ -1,0 +1,83 @@
+/* cores  */
+nav {background-color: black;}
+p a {text-decoration: none; color: #8A2BE2; font-weight: bold;}
+
+.roxo {background-color: #8A2BE2;}
+.corroxa {border: 2px solid #8A2BE2; border-radius: 20px;}
+
+.azulescuro {background-color: #8A2BE2; width: 100%; margin-left: 0px;}
+.preto {background-color: black;}
+.branco {color: white; font-weight: bold;}
+.branco2 {color: white;}
+.negrito {font-weight: bold;}
+
+
+
+/*Margens*/
+figure {margin: 5px;}
+.centropagina {text-align: center; margin: 0px;}
+.tamanho {width: 400px; height: 120px;}
+.margem {margin-top: 15px;}
+.margem1 {margin: 20px;}
+.margem2 {margin: 10px;}
+.margem3 { margin-bottom: 10px;}
+.margem31 {margin-top: 20px; margin-bottom: 10px;}
+.margem4 {margin-bottom: 20px;}
+.margem5 {margin-bottom: 10px; margin-top: 10px;}
+.margem6 {margin-bottom: 10px; margin-top: 60px;}
+
+@media (max-width: 767px) {.margem6 {margin-bottom: 10px; margin-top: 20px;}}
+
+.margem7 {margin-top: 165px;}
+.margem8 {margin-top: 10px; margin-bottom: 20px;}
+.margembotton {margin-bottom: 10px;}
+.margemtop {margin-top: 20px;}
+.margemtop2 {margin-top: 10px; margin-bottom: 10px;}
+.margemtop3 {margin-top: 25px;}
+.btn {margin-bottom: 10px;}
+.margemheader {margin-top: 140px;}
+.margemnoticias {margin-left: 10px; margin-right: 10px;}
+
+/*borda*/
+img {border-radius: 10px;}
+.img2 {border-radius: 15px 15px 0px 0px;}
+
+/*formulário*/
+.formulario {width: 100%;
+             padding: 5px;}
+.field {width: 100%; margin: 5px 0;}
+.field label {padding-left: 10px; display: block; width: 100%;}
+input[type=text], input[type=email] {width: 70%; padding-left: 10px; height: 30px;line-height: 30px; border-radius: 15px; border: 1px solid black; outline: none;}
+form {border-radius: 15px; text-align: center;}
+
+/* Nav */
+nav { margin:0px; }
+ul li {display: inline; list-style-type:none;  font-size: 1.1em; margin: 0px;text-decoration: none;}
+
+ul li a {text-decoration: none;margin-right: 20px;}
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(138,43,226)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar .navbar-toggler {border: 2px solid #8A2BE2;}
+
+@media only screen and (min-width: 992px) {.navbar-nav > li >a{color: white;}}
+@media only screen and (min-width: 992px) {.navbar-nav > li:hover >a, .navbar-nav > li.active >a {color: blueviolet;}}
+.navbar-brand {padding-bottom: 0px; padding-top: 0px;}
+.navbar { --bs-navbar-padding-y: 0px;}
+
+.bg-dark {background-color: black;}
+
+/*Imagens*/
+.img {width: 100%;}
+.card-img-overlay {margin-top: 150px;}
+
+/* botões */
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {background-color: #662bb2 !important;border: 2px solid black;}
+
+/*marcação de "em que pagina estamos"*/
+.bordaroxa:target {border: 2px solid #8A2BE2; border-radius: 5px; box-shadow: #8A2BE2 1px 0 10px;}
+.bordapreta:target {text-decoration: underline overline; text-decoration-color: black; text-shadow: 1px 1px 0px;}
+
+
+
