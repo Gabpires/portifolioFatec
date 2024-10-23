@@ -1,0 +1,61 @@
+/* cores  */
+header {background-color: #1B4C8C;}
+nav {background-color: #1B4C8C;}
+/* article {background-color: #F0B02B;} */
+/* aside {background-color:#EE7302;} */
+section {background-color: #B23C01;}
+footer {background-color: #1B4C8C;}
+
+figure {margin: 10px;}
+.centropagina {text-align: center; margin: 0px;}
+/* .corlaranja {background-color: #EE7302;} */
+.azulescuro {background-color: #1B4C8C;
+            width: 100%;
+            margin-left: 0px;}
+.tamanho {width: 400px;
+          height: 120px;}
+.margem {margin-top: 15px;}
+.margem1 {margin: 20px;}
+.margem2 {margin: 10px;}
+
+.margemtop {margin-top: 20px;}
+
+/* Nav */s
+nav { margin:0px; }
+ul li {display: inline; 
+      list-style-type:none;  
+      font-size: 1.1em; 
+      margin: 0px;
+      text-decoration: none;
+     }
+
+ul li a {text-decoration: none;
+         margin-right: 20px;}
+
+/*---------Edição do card*/
+/* Box sizing rules */
+*,*::before, {box-sizing: border-box;}
+:root {
+  /* Colors */
+  --brand-color: hsl(46, 100%, 50%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  /* Fonts */
+  --font-title: "Montserrat", sans-serif;
+}
+.texto { color: white;}
+.texto2 { margin-top: 15px;}
+
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+section {
+  height: 300vh;
+  background-image: linear-gradient(red, blue);
+}
+
