@@ -1,0 +1,29 @@
+/*BreadcrumbCSS*/
+.breadcrumbajuste{
+    padding-top: 50px;
+    padding-left: 40px;
+    background-color: white;
+    color: #7600D1;
+}
+.breadcrumbajuste a{
+    color: #7600D1;
+    text-decoration: none;
+}
+.breadcrumbajuste a:hover{
+    text-decoration: underline;
+}
+
+/*BreadcrumbCSS Páginas Sem Sub Menu*/
+.breadcrumbajustep{
+    padding-top: 10px;
+    padding-left: 40px;
+    background-color: white;
+    color: #7600D1;
+}
+.breadcrumbajustep a{
+    color: #7600D1;
+    text-decoration: none;
+}
+.breadcrumbajustep a:hover{
+    text-decoration: underline;
+}
